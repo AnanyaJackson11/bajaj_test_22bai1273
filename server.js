@@ -5,6 +5,19 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
+// Helpful GETs for browser testing
+app.get("/", (_req, res) => {
+  res.status(200).json({
+    message: "BFHL API is running. Use POST /bfhl with JSON body { data: [...] }"
+  });
+});
+
+app.get("/bfhl", (_req, res) => {
+  res.status(405).json({
+    error: "Method Not Allowed. Use POST /bfhl with JSON body { data: [...] }"
+  });
+});
+
 
 /**
  * Helpers
