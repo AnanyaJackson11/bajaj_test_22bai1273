@@ -40,17 +40,19 @@ Expected (example from prompt, may vary in order formatting):
   "concat_string": "Ra"
 }
 ```
+## My output: 
+<img width="2343" height="150" alt="image" src="https://github.com/user-attachments/assets/a510fa91-c8df-4fb9-a120-9213a4ca20f1" />
+<img width="2280" height="962" alt="image" src="https://github.com/user-attachments/assets/202a3d71-c4ee-4d4b-93af-cc38e9bb094c" />
+
 
 ## Deploy (Render quick start)
 
-1. Create a new **Render** Web Service.
+1. Create a new Vercel app.
 2. Connect your GitHub repo containing this project.
 3. Build command: `npm install`
 4. Start command: `npm start`
 5. Set environment variables FULL_NAME, DOB_DDMMYYYY, EMAIL, ROLL_NUMBER in Render dashboard.
 
-> You can also host on Vercel or Railway. For Vercel serverless, place this code in an API function or use `vercel.json` to route `/bfhl` to an API handler.
 
-## My output: 
-<img width="2343" height="150" alt="image" src="https://github.com/user-attachments/assets/a510fa91-c8df-4fb9-a120-9213a4ca20f1" />
+
 
